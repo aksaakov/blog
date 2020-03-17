@@ -4,7 +4,9 @@
   "main": "index.js",
   "author": "aksaakov",
   "scripts": {
-    "start": "webpack-dev-server index.js"
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
+    "dev": "webpack-dev-server"
+
   },
   "license": "MIT",
   "private": false,
