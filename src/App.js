@@ -8,7 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+<<<<<<< HEAD
           Welcome to MyHappyTrail!
+=======
+          Welcome to MyHappyTrail!!!!!
+>>>>>>> b384550386a50858cd455737d13d93b7b4d5590e
         </p>
       </header>
     </div>
